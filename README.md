@@ -1,3 +1,5 @@
+[![Docker Image CI](https://github.com/yezihack/busybox/actions/workflows/docker-image.yml/badge.svg)](https://github.com/yezihack/busybox/actions/workflows/docker-image.yml)
+
 # BUSYBOX
 
 基于 alpine:3.15.4 构建 busybox 工具箱。
