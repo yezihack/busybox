@@ -1,6 +1,7 @@
-FROM alpine
+FROM alpine:3.15.4
+MAINTAINER sgfoot <sgfoot2020@gmail.com>
 RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.tuna.tsinghua.edu.cn/g' /etc/apk/repositories
-# RUN apk add --no-cache gcc musl-dev linux-headers
 RUN apk update && apk upgrade && apk add --no-cache bash bash-completion curl
-
 CMD ["/bin/bash"]
+
+
