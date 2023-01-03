@@ -24,6 +24,7 @@ docker pull sgfoot/busybox:latest
 - ping 用来作为网络可用性的检查
 - nslookup  查询域名信息的一个非常有用的命令
 - traceroute 用于追踪数据包在网络上的传输时的全部路径
+- ab apache 压测工具
 
 ## busybox 默认支持的命令
 
