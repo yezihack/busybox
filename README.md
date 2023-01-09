@@ -18,13 +18,11 @@ docker pull sgfoot/busybox:latest
 - wget 是一个下载文件的工具
 - bash 支持数组
 - nc 在网络工具中有“瑞士军刀”美誉
-  - nc ip port
-  - nc -l 9999 > a.tgz 开启监听
-  - nc ip port < a.tgz 发送数据
 - ping 用来作为网络可用性的检查
 - nslookup  查询域名信息的一个非常有用的命令
 - traceroute 用于追踪数据包在网络上的传输时的全部路径
 - ab apache 压测工具
+- tcpdump 抓包工具
 
 ## busybox 默认支持的命令
 
